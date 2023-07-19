@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.per{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 15%;
+    background-color: rgba(100, 148, 237, 0.561);
+    justify-content: center;
+    
+}
+.per:hover{
+    width: 20%;
+    transition-duration: 1s;
+    transition-delay: 5ms;
+}.pix{
+    display: inline-flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 118, 250, 0.708);
+    justify-content: center;
+}
+.pix:hover{
+    width: 300px;
+    height: 300px;
+    transition-duration: 1s;
+    transition-delay: 5ms;
+}
+.vhvw{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 10vw;
+    height: 10vh;
+    background-color: rgba(100, 148, 237, 0.561);
+    justify-content: center;
+}
+.vhvw:hover{
+    width: 30vw;
+    height: 30vh;
+    transition-duration: 1s;
+    transition-delay: 5ms;
+}
+body{
+    font-size: large;
+}
+.em{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 5em;
+    height: 5em;
+    background-color: rgba(100, 148, 237, 0.561);
+    justify-content: center;
+}
+.em:hover{
+    width: 10em;
+    height: 10em;
+    transition-duration: 1s;
+    transition-delay: 5ms;
+}
+.inch{
+display: inline-flex;
+align-items: center;
+font-size: medium;
+border-radius: 10px;
+width: 2in;
+height: 2in;
+background-color: rgba(255, 118, 250, 0.708);
+justify-content: center;
+}
+.inch:hover{
+width: 5in;
+height: 5in;
+transition-duration: 1s;
+transition-delay: 5ms;
+}
+.rem{
+    display: inline-flex;
+    align-items: center;
+    font-size: medium;
+    border-radius: 10px;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(100, 148, 237, 0.561);
+    justify-content: center;
+}
+.rem:hover{
+    width: 10rem;
+    height: 10rem;
+}
+.container{
+    display: block;
+    margin-top: 1%;
+    background-color: rgba(88, 15, 157, 0.535);
+    width: max-content;
+    border-radius: 10px;
+    color: white;
+}
+p{
+    display: inline-flex;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://secureservercdn.net/72.167.242.48/x6i.58b.myftpupload.com/wp-content/uploads/2020/12/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

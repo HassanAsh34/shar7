@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="margin-top:3%;padding: 10px;background-color:rgba(160, 159, 159, 0.214);backdrop-filter: blur(20px);border-radius: 7px;">
+        <div style="margin-top: 2%;color: rgb(255, 113, 136);">Absoluet Values:</div>
+        <div class="container">
+            <div class="pix">px value</div>
+            <p style="margin-left: 5%; display: inline;">here we give the absolute value in pixils</p>
+        </div>
+        <div class="container"><div class="inch">inch value</div>
+        <p style="margin-left: 5%; display: inline;">here we give the absolute value in inches</p></div>
+    </div>
+    <div style="margin-top:3%;padding: 10px;background-color:rgba(160, 159, 159, 0.214);backdrop-filter: blur(20px);border-radius: 7px;display: flex;flex-direction: column;align-items: center;">
+        <div style="margin-top: 2%;padding-left: 2%;color: rgb(0, 157, 255);">Relative Values:</div>
+        <p style="color: rgb(0, 157, 255);">We can divide it into three consicutive parts which are ('Parent's dimension(%)','the current font size(rem,em,ex)','the viewport dimensions(vh,vw)')</p>
+        <div class="container" style="margin-top: 2%;"><div class="per">% value</div>
+        <p style="margin-left: 5%; display: inline;">percentage value relative to any element for example here the div element take 15% of the body's width</p></div>
+        <div class="container" style="margin-top: 2%;"><div class="vhvw">vh&vw values</div>
+        <p style="margin-left: 5%; display: inline;">(VH)and(VW) are similar to the percentage value relative to the viewport for example here the div element take 30% of the screen's width and height</p></div>
+        <div class="container" style="margin-top: 2%;"><div class="em">em value</div>
+        <p style="margin-left: 5%; display: inline;">EM is relative to the font size of the parent element (Body)</p></div>
+        <div class="container" style="margin-top: 2%;"><div class="rem">rem value</div>
+        <p style="margin-left: 5%; display: inline;">REM is relative to the font size of the root element (div)</p></div>
+    </div>
+    
+</body>
+</html>
